@@ -1,1 +1,1 @@
-# gaming_finder_app
+Mit yarn dev startet man den lokalen server
