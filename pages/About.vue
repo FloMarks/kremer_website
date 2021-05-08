@@ -1,14 +1,13 @@
 <template>
-  <GridWidth>
+  <div>
     About Page
-  </GridWidth>
+  </div>
 </template>
 
 <script>
-import GridWidth from "~/components/grid_width/GridWidth";
 
 export default {
   name: "About",
-  components: {GridWidth},
+  components: {},
 }
 </script>

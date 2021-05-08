@@ -1,11 +1,20 @@
 <template>
   <div>
-    <Nuxt />
+    <Header />
+    <GridWidth>
+      <Nuxt />
+    </GridWidth>
+    <Footer />
   </div>
 </template>
+
 <script>
+import GridWidth from "~/components/grid_width/GridWidth";
+import Header from "~/components/menu/Header";
+import Footer from "~/components/menu/Footer";
+
 export default {
   name: 'Default',
-  components: {},
+  components: {GridWidth, Header, Footer},
 }
 </script>

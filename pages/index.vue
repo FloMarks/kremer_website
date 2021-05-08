@@ -1,15 +1,14 @@
 <template>
-  <GridWidth>
+  <div>
     <TestComponent />
-  </GridWidth>
+  </div>
 </template>
 
 <script>
 import TestComponent from "~/components/TestComponent";
-import GridWidth from "~/components/grid_width/GridWidth";
 
 export default {
   name: 'Startseite',
-  components: {TestComponent, GridWidth},
+  components: {TestComponent},
 }
 </script>
