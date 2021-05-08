@@ -1,6 +1,5 @@
 <template>
   <div class="fixed h-5 w-full bg-black">
-
   </div>
 </template>
 

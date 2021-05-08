@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Header />
+    <div class="pb-5">
+      <Header />
+    </div>
     <GridWidth>
       <Nuxt />
     </GridWidth>
